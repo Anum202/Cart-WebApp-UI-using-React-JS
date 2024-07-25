@@ -1,0 +1,162 @@
+.o-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.b-content {
+    display: flex;
+    flex: 1;
+}
+
+.m-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #1E1E1E;
+} 
+
+.full-width-header {
+    background-color: #2E2E2E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    width: 95%;
+    height: 10%;
+    border-radius: 10px;
+}
+
+.date {
+    font-size: 16px;
+    margin-right: 20px; 
+}
+
+.date-picker {
+    font-size: 16px;
+    margin-right: 20px;
+    background-color: #2E2E2E;
+    color: #FFFFFF;
+}
+
+.search-bar-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto; 
+}
+
+.search-bar {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+    padding-left: 30px; 
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+}
+
+.new-order-button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #5ADFE6;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+} 
+.cards-wrapper {
+    flex: 1; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.history-orders {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+.order-card {
+    background-color: #2E2E2E;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 15px;
+    flex: 1 1 calc(33.333% - 20px); 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.order-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.order-info-title {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.order-info-value {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.view-items-button1 {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #5ADFE6;
+    color: #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    width: 40%;
+}
+
+.view-items-button2 {
+    padding: 10px;
+    border: 1px solid #5ADFE6;
+    cursor: pointer;
+    background-color: #2E2E2E;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

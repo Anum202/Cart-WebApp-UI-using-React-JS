@@ -1,0 +1,208 @@
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.body-content {
+    display: flex;
+    flex: 1;
+    background-color: #1E1E1E;
+}
+
+.mainContent {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.plan-container {
+    display: flex;
+    gap: 20px;
+}
+
+.plan-card {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #2E2E2E;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    color: #FFFFFF;
+}
+
+.basic-plan {
+    border: 2px solid #5ADFE6;
+}
+
+.premium-plan {
+    background-color: #00BFFF;
+    color: #000000;
+}
+
+.action-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00BFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.learn-more {
+    margin-top: 10px;
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.auto-renew-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #00BFFF;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+.payment-method-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2E2E2E;
+    border: 1px solid #00BFFF;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    gap: 10px;
+}
+
+.card img {
+    width: 50px;
+}
+
+.remove-card {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
+
+.add-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2E2E2E;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+}
+
+.add-card-button {
+    background-color: #00BFFF;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.billing-history-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+}
+
+thead {
+    background-color: #2E2E2E;
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr {
+    border-bottom: 1px solid #444;
+}
+
+tbody td {
+    padding: 10px;
+}
+
+tbody a {
+    color: #00BFFF;
+    text-decoration: none;
+}
+
+tbody a:hover {
+    text-decoration: underline;
+}

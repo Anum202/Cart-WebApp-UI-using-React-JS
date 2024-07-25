@@ -1,0 +1,79 @@
+.outerContainer {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: row;
+    height: 100vh; 
+}
+
+/* Left Container (Background Image) */
+.left-container {
+    flex: 1;
+    background-image: url('../../assets/bg-img.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Right Container */
+.rightContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E2E2E;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+/* Summary Text */
+.summary-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+/* Forgot Password Link */
+.forget {
+    color: #5ADFE6;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.forget a {
+    color: #5ADFE6;
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.forget a:hover {
+    text-decoration: underline;
+}
+
+/* Underline Divider */
+.underline {
+    height: 1px;
+    width: 130%;
+    background-color: #E8E8E8;
+    margin-top: 30px;
+}
+
+/* Footer */
+.footer {
+    font-size: 12px;
+    font-weight: 400;
+    color: #DCDCDC;
+    margin-top: 30px;
+}
+
+/* Footer Span link */
+.span-link {
+    color: #5ADFE6;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,170 @@
+.OuterContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.BodyContent {
+    display: flex;
+    flex: 1;
+}
+
+.MainContent {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+}
+
+.ingredients-section, .selected-ingredients-section {
+    flex: 1;
+    margin: 10px;
+    background-color: #2E2E2E;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchbar-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+.search-bar {
+    background-color: #3E3E3E;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px 10px 40px; 
+    color: #FFFFFF;
+    width: 90%;
+    font-size: 14px;
+}
+
+.ingredients-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.ingredient-card {
+    background-color: #3E3E3E;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    width: calc(25% - 10px); 
+    text-align: center;
+}
+
+.ingredient-card img {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.ingredient-card span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.selected-ingredients-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.selected-ingredients-list {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.selected-ingredient-card {
+    background-color: #3E3E3E;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.selected-ingredient-card span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.selected-ingredient-card img {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.generate-ideas {
+    width: 45%;
+    background-color: #5ADFE6;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    height: 40px; 
+    line-height: 1; 
+}
+
+.generate-icon {
+    margin-right: 5px;
+    height: 15px; 
+    width: 10px; 
+}
+
+.clear-all {
+    width: 45%;
+    background-color: #3E3E3E;
+    color: #5ADFE6;
+    border: 1px solid #5ADFE6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    height: 40px; 
+    line-height: 1; 
+}
+
+.total-count {
+    margin-left: auto;
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -1,0 +1,36 @@
+/* Checkbox Styles */
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+.checkbox label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #DCDCDC !important;
+}
+.rightContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E2E2E;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+.outerContainer {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: row;
+    height: 100vh; 
+}
+
+

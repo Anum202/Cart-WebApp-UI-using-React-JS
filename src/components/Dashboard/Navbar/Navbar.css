@@ -1,0 +1,58 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2E2E2E;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Span Styles */
+.span-text{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-left: 100px; 
+    flex-grow: 1; 
+    text-align: start; 
+}
+
+/* User Profile Styles */
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile span {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.user-profile a {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none; 
+}
+
+
+.user-profile img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
